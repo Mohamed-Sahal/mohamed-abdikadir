@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Typewriter Effect</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="line anim-typewriter-line-1">
+      Lets eradicate poverty in Masai society. Lets work in collaborations
+</div>
+<div class="line anim-typewriter-line-2">
+      and engage in social activities to help the needy and better up the
+</div>
+<div class="line anim-typewriter-line-3">
+      Masai community.
+</div>
+
+</body>
+</html>

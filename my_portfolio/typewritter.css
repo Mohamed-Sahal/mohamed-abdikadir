@@ -1,0 +1,284 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+/* html {
+      min-height: 100%;
+      overflow: hidden;
+} */
+
+/* body {
+      height: calc(100vh - 8em);
+      padding: 4em;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: 'Anonymous Pro', monospace;
+      background-color: rgb(25, 25, 25);
+} */
+
+.line {
+      position: relative;
+      top: 50%;
+      width: 16em;
+      /* margin: 0 auto; */
+      /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+      /* font-size: 180%;
+      text-align: center; */
+      white-space: nowrap;
+      overflow: hidden;
+      /* transform: translateY(-50%); */
+}
+.develop{
+      display: inline-flex;
+      /* margin-top: -12%; */
+}
+.develop-websites{
+      /* width: 100%; */
+      margin-top: -13%;
+}
+.develop-databases{
+      /* margin-left: 65%; */
+      width: 100%;
+      margin-top: -7%;
+      margin-left: -9%;
+      margin-right: 0;
+}
+
+/*Animation*/
+
+/* .anim-typewriter-line-1 {
+      animation: anim-typewriter-line-1 3s steps(39) .1s 1 normal both,
+      blinkTextCursor 500ms steps(39) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-2 {
+      animation: anim-typewriter-line-2 4s steps(67) 4s 1 normal both,
+      blinkTextCursor 500ms steps(67) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-3 {
+      animation: anim-typewriter-line-3 4s steps(32) 8s 1 normal both,
+      blinkTextCursor 500ms steps(32) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-4 {
+      animation: anim-typewriter-line-4 4s steps(86) 12s 1 normal both,
+      blinkTextCursor 500ms steps(86) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-5 {
+      animation: anim-typewriter-line-5 4s steps(86) 15s 1 normal both,
+      blinkTextCursor 500ms steps(86) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-6 {
+      animation: anim-typewriter-line-6 4s steps(68) 18s 1 normal both,
+      blinkTextCursor 500ms steps(68) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-7 {
+      animation: anim-typewriter-line-7 4s steps(52) 22s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-8-websites {
+      animation: anim-typewriter-line-8-websites 4s steps(80) 26s 1 normal both,
+      blinkTextCursor 500ms steps(30) infinite normal;
+      word-break: break-all;
+}
+
+.anim-typewriter-line-9 {
+      animation: anim-typewriter-line-9 4s steps(52) 30s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-10 {
+      animation: anim-typewriter-line-10 4s steps(52) 31s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-11 {
+      animation: anim-typewriter-line-11 4s steps(52) 32s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-12 {
+      animation: anim-typewriter-line-12 4s steps(52) 33s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-13 {
+      animation: anim-typewriter-line-13 4s steps(52) 34s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-14 {
+      animation: anim-typewriter-line-14 4s steps(52) 35s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-8-database {
+      animation: anim-typewriter-line-8-database 4s steps(80) 36s 1 normal both,
+      blinkTextCursor 500ms steps(30) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-15 {
+      animation: anim-typewriter-line-15 4s steps(52) 39s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+.anim-typewriter-line-16 {
+      animation: anim-typewriter-line-16 4s steps(52) 40s 1 normal both,
+      blinkTextCursor 500ms steps(52) infinite normal;
+      word-break: break-all;
+}
+
+@keyframes anim-typewriter-line-1 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 39ch;
+      }
+}
+@keyframes anim-typewriter-line-2 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 67ch;
+      }
+}
+@keyframes anim-typewriter-line-3 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 32ch;
+      }
+}
+@keyframes anim-typewriter-line-4 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 86ch;
+      }
+}
+@keyframes anim-typewriter-line-5 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 86ch;
+      }
+}
+@keyframes anim-typewriter-line-6 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 68ch;
+      }
+}
+@keyframes anim-typewriter-line-7 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-8-websites {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 30ch;
+      }
+}
+@keyframes anim-typewriter-line-8-database {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 30ch;
+      }
+}
+@keyframes anim-typewriter-line-9 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-10 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-11 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-12 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-13 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-14 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-15 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+}
+@keyframes anim-typewriter-line-16 {
+      from {
+            width: 0ch;
+      }
+      to {
+            width: 52ch;
+      }
+} */
+
+/* @keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+} */
+
+
+@media (min-width: 768px) {
+	
+}
